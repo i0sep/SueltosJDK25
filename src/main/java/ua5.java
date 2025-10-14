@@ -6,22 +6,18 @@ public class ua5 {
         int num = skanner.nextInt();
         String Snum = String.valueOf(num);
 
-        int suma = (Snum.length()>6&&Snum.length()<=5)?(num<500000)?izqDerech(num):derechIzq(num):0;
-        //int suma =(num<500000)?izqDerech(num):derechIzq(num);
-
-
-
+        String suma = (Snum.length()>6&&Snum.length()<=5)?(num<500000)?izqDerech(String.valueOf(num)):derechIzq(String.valueOf(num)):"El número no tiene 6 cifras";
+        System.out.print(suma);
     }
 
-    public static int    izqDerech(int n1){
-        String num1 = String.valueOf(n1);
-        num1 = num1.substring(0,2);
+    public static String izqDerech(String n1){
+        n1 = n1.substring(2);
+
         return n1;
     }
 
-    public static int derechIzq(int n1){
-        int Fahrenheit = (n1 * 9/5) + 32;
-        return Fahrenheit;
+    public static String derechIzq(String n1){
+        return n1;
     }
 
 

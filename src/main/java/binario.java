@@ -9,7 +9,5 @@ public class binario {
         System.out.println(Integer.toBinaryString(sol));
         System.out.println(sol);
 
-
-
     }
 }

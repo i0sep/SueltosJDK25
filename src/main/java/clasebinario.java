@@ -1,4 +1,4 @@
-public class binario {
+public class clasebinario {
     public static void main(String[] args) {
         int n1 = 14;
         int n2 = 1;

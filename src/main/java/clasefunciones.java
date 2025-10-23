@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class funciones {
+public class clasefunciones {
     public static void main(String[] args) {
         print(); // OTRA FUNCION
 

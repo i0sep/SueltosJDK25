@@ -1,4 +1,4 @@
-public class decimal {
+public class clasedecimal {
 
     public static void main(String[] args) {
 

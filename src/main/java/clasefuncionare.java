@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class funcionarea {
+public class clasefuncionare {
     public static void main(String[] args) {
         Scanner skanner = new Scanner(System.in);
         System.out.print("Dime 3 lados de un triangulo: ");

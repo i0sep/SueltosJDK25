@@ -6,10 +6,21 @@ public class ua3 {
         String palabra1 = skanner.next();
         String palabra2 = skanner.next();
 
-        String last2_1 = (palabra1.length()>=5&&palabra2.length()>=5)?palabra1.substring(0,2)+palabra2.substring(2):"No se puede hacer el cambio";
-        String last2_2 = (palabra1.length()>=5&&palabra2.length()>=5)?palabra2.substring(0,2)+palabra1.substring(2):"";
-        System.out.println(last2_1);
-        System.out.print(last2_2);
-
+        change(palabra1,palabra2);
     }
+    public static String change(String palabra1, String palabra2){
+        if (palabra1.length()>=5 && palabra2.length()>=5){
+        String aux2 = palabra1.substring(palabra1.length()-2);
+        String aux1 = palabra2.substring(0,2);
+        String last2_1 = palabra1.substring(0,palabra1.length()-2)+aux1;
+        String last2_2 = aux2+palabra2.substring(2);
+        System.out.println("Palabra 1: "+last2_1);
+        System.out.print("Palabra 2: "+last2_2);
+        } else {
+            System.out.print("Error al ingresar los datos.");
+        }
+        return "";
+    }
+
+
 }

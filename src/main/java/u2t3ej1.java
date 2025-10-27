@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class u2t1ej1 {
+public class u2t3ej1 {
     public enum laSemana {                                         //crea la enumeracion
         LUNES,
         MARTES,

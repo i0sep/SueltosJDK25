@@ -7,6 +7,7 @@ public static void main(String[] args) {
     double num1 = sc.nextDouble();
     System.out.print("Introduce otro número con decimales: ");
     double num2 = sc.nextDouble();
+
     System.out.println("Elige operación a realizar: ");
     System.out.println("1. Suma");
     System.out.println("2. Resta");

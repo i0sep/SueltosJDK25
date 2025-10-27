@@ -1,3 +1,6 @@
+import java.util.Scanner;
+
+public class claseopciones {
 public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.print("Introduce un número con decimales: ");
@@ -45,3 +48,4 @@ public static void main(String[] args) {
     public static double division(double num1, double num2) {
         return num1 / num2;
     }
+}

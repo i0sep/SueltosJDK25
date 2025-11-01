@@ -21,7 +21,7 @@ public class u1t2ej18 {
         String sHoraMinuto = String.valueOf(nHoraMinuto);
         String sHora = sHoraMinuto.substring(0,2);
         String sMinuto = sHoraMinuto.substring(2);
-        int nHora = Integer.valueOf(sHora);
+        int nHora = Integer.parseInt(sHora);
         int nMinuto = Integer.valueOf(sMinuto);
         nHora = (nHora>12)?nHora=nHora-12:nHora;
         String formato = (nHora>=12)?"pm":"am";
